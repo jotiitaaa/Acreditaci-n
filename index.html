@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Espirasis | Asistencia informática</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+
+        <div class="logo">
+            <img src="img/logo oficial.svg" alt="Logo de Espirasis">
+            <h1>Espirasis</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+
+        <!-- INICIO -->
+        <section id="inicio">
+
+            <h2>Un espiral de conocimientos </h2>
+
+            <p>
+                solo a tus requerimientos...
+            </p>
+
+            <p>
+                En Espirasis ofrecemos soluciones informáticas
+                para acompañar el desarrollo tecnológico de
+                personas y empresas.
+            </p>
+
+            <a href="#servicios">Conocé nuestros servicios</a>
+
+        </section>
+
+
+        <!-- NOSOTROS -->
+        <section id="nosotros">
+
+            <h2>¿Quiénes somos?</h2>
+
+            <p>
+                Somos Espirasis, una empresa dedicada a brindar
+                soluciones y asistencia informática.
+                Nuestro objetivo es acercar la tecnología
+                a las personas mediante productos y servicios
+                de calidad.
+            </p>
+
+            <h3>Misión</h3>
+
+            <p>
+                Brindar soluciones tecnológicas integrales que faciliten el acceso al conocimiento, mejoren la experiencia de nuestros clientes y acompañen su crecimiento personal, educativo y profesional. Nos comprometemos a ofrecer productos y servicios informáticos de calidad, combinando innovación, responsabilidad y atención personalizada.
+            </p>
+
+            <h3>Visión</h3>
+
+            <p>
+              Ser una empresa referente en el ámbito tecnológico, reconocida por su compromiso con la innovación, la calidad y la confianza de nuestros clientes. Aspiramos a crecer continuamente, adaptándonos a los avances tecnológicos y generando oportunidades que permitan conectar a las personas con el conocimiento y el futuro digital.
+            </p>
+
+            <h3>Valores</h3>
+
+            <p>
+                Innovación: Buscamos nuevas ideas y soluciones para adaptarnos a los cambios tecnológicos.</p>
+                 <p> Responsabilidad: Trabajamos con compromiso y seriedad, procurando brindar soluciones confiables. </p>
+<p>Calidad: Nos esforzamos por ofrecer productos y servicios que respondan a las necesidades de nuestros clientes. </p>
+ <p> Compromiso: Acompañamos a nuestros clientes y buscamos construir relaciones duraderas basadas en la confianza.</p>
+<p>Aprendizaje continuo: Promovemos el conocimiento y la capacitación como herramientas para el desarrollo.</p>
+<p>Atención personalizada: Escuchamos las necesidades de cada cliente para ofrecer respuestas adecuadas a cada situación.</p>
+
+
+
+            </p>
+
+        </section>
+
+
+        <!-- SERVICIOS -->
+        
+<section id="servicios">
+
+    <h2>Nuestros servicios</h2>
+
+    <p class="introduccion">
+        Soluciones informáticas pensadas para acompañarte
+        en cada etapa de tu desarrollo tecnológico.
+    </p>
+
+    <div class="contenedor-servicios">
+
+        <article class="servicio">
+
+            <span class="numero">01</span>
+
+            <h3>Mantenimiento de equipos y redes</h3>
+
+            <p>
+                Realizamos mantenimiento preventivo y correctivo
+                para mejorar el rendimiento y prolongar la vida
+                útil de tus dispositivos y tu red.
+            </p>
+
+            <span class="precio">Consultar precio</span>
+
+        </article>
+
+
+        <article class="servicio">
+
+            <span class="numero">02</span>
+
+            <h3>Instalación de software</h3>
+
+            <p>
+                Instalamos, configuramos y actualizamos
+                programas y sistemas operativos según
+                tus necesidades.
+            </p>
+
+            <span class="precio">Consultar precio</span>
+
+        </article>
+
+
+        <article class="servicio">
+
+            <span class="numero">03</span>
+
+            <h3>Asesoramiento informático</h3>
+
+            <p>
+                Te ayudamos a encontrar soluciones tecnológicas
+                y elegir los productos adecuados para cada necesidad con capacitaciones y seguimientos.
+            </p>
+
+            <span class="precio">Consultar precio</span>
+
+        </article>
+
+    </div>
+
+</section>
+
+        </section>
+
+
+        <!-- CONTACTO -->
+        <section id="contacto">
+
+            <h2>Contactanos</h2>
+
+            <p>
+                ¿Tenés alguna consulta? Completá el formulario
+                y nos comunicaremos con vos.
+            </p>
+
+            <form id="formularioContacto">
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"
+                    placeholder="Tu nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email"
+                    placeholder="ejemplo@gmail.com" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono"
+                    placeholder="Tu teléfono">
+
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto"
+                    placeholder="Motivo de tu consulta" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje"
+                    placeholder="Escribí tu consulta..."
+                    minlength="10" required></textarea>
+
+                <button type="submit">Enviar consulta</button>
+                <p id="estadoFormulario" role="status"></p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+
+        <p>© 2026 Espirasis. Todos los derechos reservados.</p>
+
+        <a href="admin.html">Administración</a>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
